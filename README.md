@@ -19,7 +19,6 @@ g++ -std=c++11 *pp
 ## Run
 
 The agent can be run in two different modes:
-
     1. Server - act as the judge by sending predefined observations one at a time
    and asking the client to respond.
     2. Client - get observations from standard input and output actions to

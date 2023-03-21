@@ -38,8 +38,7 @@ mkfifo player2server server2player
 ```
 ./a.out verbose > player2server < server2player
 ```
-
-Where "Skeleton" is the compiled skeleton program. Or you may run both instances in the same terminal:
+Or you may run both instances in the same terminal:
 
 ```
 ./a.out server < player2server | ./a.out verbose > player2server
